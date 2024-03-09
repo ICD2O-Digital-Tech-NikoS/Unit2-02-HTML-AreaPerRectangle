@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My first webpage, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ms Raffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My first webpage, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Basic Math with JS</h1>
+    <div id="add-math">6 + 5 = ?</div>
+    <div id="subtract-math">7 - 3 = ?</div>
+    <div id="multiply-math">3 + 4 * 2 = ?</div>
+    <div id="divide-math">(4 / 2) + 3 = ?</div>
+    <div id="exponent-math">5 + 2³ = ?</div>
+		<div id="square-root-math">√(81) = ?</div>
+    <br>
+    <button onclick="doMathClicked()">Do math</button>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <h1>Calculate the Area of A Rectangle</h1>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    length: <input type="number" name="length" id="length"><br> 
+    width: <input type="number" name="width" id="width"><br>
+    <button onclick="area(document.getElementById('length').value,document.getElementById('width').value)">Calculate</button>
+    <p>The area of the rectangle is <span id="output"></span></p>
 
+
+  </body>
 </html>
