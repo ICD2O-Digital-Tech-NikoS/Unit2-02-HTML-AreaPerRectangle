@@ -1,1 +1,1 @@
-# Unit2-02-HTML-AreaPerRectangle
+[![Mr Coxall's Super Linter](https://github.com/ICD2O-Digital-Tech-NikoS/Unit2-02-HTML-AreaPerRectangle/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/ICD2O-Digital-Tech-NikoS/Unit2-02-HTML-AreaPerRectangle/actions/)
