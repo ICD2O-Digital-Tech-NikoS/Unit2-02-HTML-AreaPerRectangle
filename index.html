@@ -16,6 +16,7 @@
   <body>
     <script src="./js/script.js"></script>
     <h1>Basic Math with JS</h1>
+    <!-- These are the equations that are going to be changed by the do math button, so the question marks will be replaced with the answers -->
     <div id="add-math">6 + 5 = ?</div>
     <div id="subtract-math">7 - 3 = ?</div>
     <div id="multiply-math">3 + 4 * 2 = ?</div>
@@ -27,11 +28,23 @@
 
     <h1>Calculate the Area of A Rectangle</h1>
 
+    <!-- adds inputs for length and width -->
+    <p>units: meters</p>
     length: <input type="number" name="length" id="length"><br> 
     width: <input type="number" name="width" id="width"><br>
+    <!-- button that calculates the area when clicked -->
     <button onclick="area(document.getElementById('length').value,document.getElementById('width').value)">Calculate</button>
     <p>The area of the rectangle is <span id="output"></span></p>
 
+     <h1>Calculate the Perimeter of A Rectangle</h1>
 
+    <!-- adds inputs for length and width -->
+    <p>units: meters</p>
+    length: <input type="number" name="length" id="length2"><br>
+    width: <input type="number" name="width" id="width2"><br>
+    
+    <!-- button that calculates the Perimeter when clicked -->
+    <button onclick="perimeter(document.getElementById('length2').value,document.getElementById('width2').value)">Calculate</button>
+    <p>The perimeter of the rectangle is <span id="output2"></span></p>
   </body>
 </html>
